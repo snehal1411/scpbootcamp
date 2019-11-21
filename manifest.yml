@@ -1,0 +1,12 @@
+applications:
+- name: sdkapp
+....
+env:
+  ...
+  destinations: [{name: 'ErpQueryEndpoint', url: 'http://mockserver-delightful-bonobo.cfapps.eu10.hana.ondemand.com'}]
+
+#  services:
+#  - my-application-logs
+#  - my-xsuaa
+#  - my-destination
+#  - my-connectivity
